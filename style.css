@@ -1,0 +1,125 @@
+nav{
+    position: absolute;
+    width: 470px;
+    height: 50px;
+    background-color: #222;
+    border-radius: 10px;
+    display: flex;
+    align-items: right;
+    text-align: right;
+    justify-content: right;
+    margin-left: 830px;
+    margin-top: 0px;
+}
+nav a{
+    display: inline-block;
+    font-size: large;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    z-index: 1;
+}
+nav span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 85px;
+    height: 100%;
+    background:linear-gradient(45deg,#194b4f,#33fffc);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+nav a:nth-child(1):hover~span{left:0px;}
+nav a:nth-child(2):hover~span{left:70px;}
+nav a:nth-child(3):hover~span{left:170px;}
+nav a:nth-child(4):hover~span{left:280px;}
+nav a:nth-child(5):hover~span{left:385px;}
+.clash{
+  height: 700px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  margin-top: 50px;
+  
+}
+.clash div{
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    
+}
+img{
+    height:300px;
+    width: 300px;
+    margin-left: 10px;
+}
+p{
+    font-size: 20px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.hero{
+    background-color: #f8f8f8;
+    overflow: hidden;
+
+}
+.heading h1{
+    color: #ff6347;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 35px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 65px auto;
+
+}
+.hero-content{
+   flex: 1;
+   width: 600px;
+   margin: 0px 25px;
+}
+.hero-image{
+    flex: 1;
+    width: 600px;
+    margin: auto;
+
+}
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.cta-button{
+    color: white;
+    background-color: blue;
+}
+.ghk{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+.ghk p{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+@media(max-width:768px){
+    .content{
+        width: 90%;
+    }
+}
+
